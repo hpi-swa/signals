@@ -1,0 +1,15 @@
+{
+	"category" : "Signals-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/22/2011 10:02:01.744",
+	"instvars" : [
+		"lastUpdate",
+		"lastEntry" ],
+	"name" : "SignalTranscriptModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

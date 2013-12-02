@@ -1,0 +1,15 @@
+{
+	"category" : "Signals-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"switch" ],
+	"name" : "SignalConsumer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+signals
+newSignalProduced
+
+	self emit.

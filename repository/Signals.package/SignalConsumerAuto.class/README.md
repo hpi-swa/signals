@@ -1,0 +1,1 @@
+I am a signal consumer that makes use of auto-connected signals.

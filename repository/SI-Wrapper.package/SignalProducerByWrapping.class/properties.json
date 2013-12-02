@@ -1,0 +1,14 @@
+{
+	"category" : "SI-Wrapper-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/10/2010 22:53:13.035",
+	"instvars" : [
+		"value" ],
+	"name" : "SignalProducerByWrapping",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

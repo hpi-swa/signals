@@ -1,0 +1,1 @@
+Warning: Running those tests may clear the local signal connection repository. All applications that make use of them need to be restarted.

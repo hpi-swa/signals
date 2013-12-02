@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSignals",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSignals",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

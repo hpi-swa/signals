@@ -1,0 +1,1 @@
+Stores information about argument mapping and discarding as well as default arguments to be used during signal dispatching.

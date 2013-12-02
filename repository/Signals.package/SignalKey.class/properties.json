@@ -1,0 +1,15 @@
+{
+	"category" : "Signals-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/14/2010 19:37:06.469",
+	"instvars" : [
+		"class",
+		"selector" ],
+	"name" : "SignalKey",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

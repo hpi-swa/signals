@@ -1,0 +1,14 @@
+{
+	"category" : "SI-Wrapper-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SignalWrapperTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

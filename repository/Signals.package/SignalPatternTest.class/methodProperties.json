@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "mt 6/24/2010 16:42:58.214",
+		"test01SimplePattern" : "mt 6/24/2010 17:24:15.52",
+		"test02EmptyPattern" : "mt 6/24/2010 16:47:14.141",
+		"test03PatternWithDefaults" : "mt 6/24/2010 16:56:41.05",
+		"test04SimpleMapping" : "mt 6/24/2010 16:53:54.483",
+		"test05MappingWithDefaults" : "mt 6/24/2010 17:33:00.689",
+		"test06MaxIndexWithDefaults" : "mt 6/24/2010 17:12:39.356",
+		"test07MinIndexWithDefaults" : "mt 6/24/2010 17:24:28.065",
+		"test08DefaultsOnly" : "mt 6/24/2010 17:35:24.642",
+		"test09DefaultObjects" : "mt 6/24/2010 17:47:59.921",
+		"test10weakMapping" : "mt 10/26/2010 16:32:13.691" } }

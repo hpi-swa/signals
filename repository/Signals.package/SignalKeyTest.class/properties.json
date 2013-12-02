@@ -1,0 +1,14 @@
+{
+	"category" : "Signals-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SignalKeyTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

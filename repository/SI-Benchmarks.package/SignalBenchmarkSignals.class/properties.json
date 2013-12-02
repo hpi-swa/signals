@@ -1,0 +1,14 @@
+{
+	"category" : "SI-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SignalBenchmarkSignals",
+	"pools" : [
+		 ],
+	"super" : "SignalBenchmark",
+	"type" : "normal" }

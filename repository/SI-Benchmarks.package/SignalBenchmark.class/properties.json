@@ -1,0 +1,15 @@
+{
+	"category" : "SI-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sender",
+		"receivers" ],
+	"name" : "SignalBenchmark",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Signals-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/6/2010 22:30:38.308",
+	"instvars" : [
+		"producer",
+		"producerTwo" ],
+	"name" : "SignalConsumerAuto",
+	"pools" : [
+		 ],
+	"super" : "SignalConsumer",
+	"type" : "normal" }

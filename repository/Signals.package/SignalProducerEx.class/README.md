@@ -1,0 +1,1 @@
+Used to test base class signal emitting.

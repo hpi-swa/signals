@@ -1,0 +1,14 @@
+{
+	"category" : "SI-Wrapper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/10/2010 22:01:14.237",
+	"instvars" : [
+		 ],
+	"name" : "SignalMethodWrapper",
+	"pools" : [
+		 ],
+	"super" : "MwMethodWrapper",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Signals-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/24/2010 16:44:33.05",
+	"instvars" : [
+		"mapping" ],
+	"name" : "SignalConnectionPattern",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

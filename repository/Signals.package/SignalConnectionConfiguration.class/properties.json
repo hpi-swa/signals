@@ -1,0 +1,18 @@
+{
+	"category" : "Signals-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/14/2010 19:16:09.16",
+	"instvars" : [
+		"selector",
+		"pattern",
+		"queue",
+		"isBlocking",
+		"forceUiProcess" ],
+	"name" : "SignalConnectionConfiguration",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

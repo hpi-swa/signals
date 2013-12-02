@@ -1,0 +1,14 @@
+{
+	"category" : "SI-Wrapper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Repository" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mutex" ],
+	"name" : "SignalMethodWrapperRepository",
+	"pools" : [
+		 ],
+	"super" : "OrderedCollection",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+A data class that stores connection configuration.

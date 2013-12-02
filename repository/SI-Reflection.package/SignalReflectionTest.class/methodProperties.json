@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01FindConnections" : "mt 3/18/2011 09:48:55.694",
+		"test02FindSignalEmits" : "mt 6/17/2010 15:16:46.095",
+		"test03IsSignal" : "mt 12/1/2011 14:18:48.737",
+		"test04GetSignals" : "mt 12/1/2011 14:19:56.865" } }

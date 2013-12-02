@@ -1,0 +1,1 @@
+I store all active signal-selector connections with weak data structures.

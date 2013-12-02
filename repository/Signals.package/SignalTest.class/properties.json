@@ -1,0 +1,16 @@
+{
+	"category" : "Signals-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/25/2011 11:22:50.279",
+	"instvars" : [
+		"producer",
+		"consumer",
+		"process" ],
+	"name" : "SignalTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

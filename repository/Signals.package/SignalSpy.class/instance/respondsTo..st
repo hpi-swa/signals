@@ -1,0 +1,4 @@
+spying
+respondsTo: aSelector
+
+	^ true

@@ -1,0 +1,1 @@
+I am able to turn any method into a signal without the need of changing the code of that method.

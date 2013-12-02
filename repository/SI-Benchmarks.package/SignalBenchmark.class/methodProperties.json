@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"run" : "mt 6/10/2010 17:32:50.338" },
+	"instance" : {
+		"needsPreparation" : "mt 6/10/2010 17:53:28.793",
+		"prepareOneBindingFor:" : "mt 6/10/2010 17:41:40.031",
+		"receiverCount" : "mt 6/10/2010 18:18:41.446",
+		"run" : "mt 6/10/2010 17:57:22.712",
+		"setUp" : "mt 6/10/2010 17:41:03.411",
+		"tearDown" : "mt 6/10/2010 17:10:43.249",
+		"triggerOneEventWith:" : "mt 6/10/2010 17:44:39.496" } }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"checkSignal:inClass:" : "mt 6/14/2010 21:37:53.926",
+		"critical:" : "mt 6/3/2010 08:50",
+		"instance" : "mt 6/14/2010 20:43:52.302",
+		"reset" : "mt 6/14/2010 20:47:18.789" },
+	"instance" : {
+		"critical:" : "mt 6/3/2010 08:46",
+		"finalizeLater" : "mt 3/25/2011 11:26:33.707",
+		"finalizeTimeOut" : "mt 3/25/2011 11:20:17.33",
+		"finalizeTimeOut:" : "mt 3/25/2011 11:20:28.221",
+		"finalizeValues" : "mt 3/28/2011 10:02:31.184",
+		"mutex" : "mt 3/28/2011 10:08:03.155" } }

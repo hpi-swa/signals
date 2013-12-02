@@ -1,0 +1,15 @@
+{
+	"category" : "Signals-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/3/2010 11:55",
+	"instvars" : [
+		"queue",
+		"verbose" ],
+	"name" : "SignalSpy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
