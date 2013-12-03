@@ -1,1 +1,1 @@
-(name 'BaselineOfSignals-mt.1' message 'empty log message' id '419d0bdd-9511-cd42-8789-9566c0755509' date '2 December 2013' time '2:21:14.658 pm' author 'mt' ancestors () stepChildren ())
+(name 'BaselineOfSignals-mt.2' message 'new group for travis ci' id 'defdcd4b-ee6e-804e-8239-23b7800be6cd' date '3 December 2013' time '3:57:30.477 pm' author 'mt' ancestors ((name 'BaselineOfSignals-mt.1' message 'empty log message' id '419d0bdd-9511-cd42-8789-9566c0755509' date '2 December 2013' time '2:21:14.658 pm' author 'mt' ancestors () stepChildren ())) stepChildren ())
