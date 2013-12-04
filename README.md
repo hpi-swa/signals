@@ -2,7 +2,7 @@
 
 A simple callback is a function call that is performed when another action took place. Normally, callback can be registered to an object and will be processed by that object whenever the time is right. There are several ways to implement such callbacks. Some are more general, others only apply to a subset of possible actions in the system. This *Signals* implementation tries to be usable in all cases but adds one or another constraint to keep code that uses signals readable.
 
-The signals mechanism was inspired by the signals/slots concept of the [Qt Framework] (http://qt-project.org/).
+The signals mechanism was inspired by the signals/slots concept of the [Qt Framework](http://qt-project.org/).
 
 1. [Terms] (#terms)
 1. [Implementing Signals] (#implementing-signals)
@@ -191,9 +191,9 @@ The structre stored by the `SignalSpy` is an array with two fields: signal name 
 
 ## Awareness
 
-There is an extension to the [OmniBrowser Framework] #(http://pharo.gemtalksystems.com/book/PharoTools/OmniBrowser/) that shows a small icon in front of signals in the message list:
+There is an extension to the [OmniBrowser Framework](http://pharo.gemtalksystems.com/book/PharoTools/OmniBrowser/) that shows a small icon in front of signals in the message list:
 
-    ![Signals have a custom icon in the message list.](/img/SignalsOmniBrowserMorphic.PNG)
+![Signals have a custom icon in the message list](img/SignalsOmniBrowserMorphic.PNG)
 
 Trying to load the Signals package into a Squeak image without OmniBrowser installed results in a warning that can be ignored safely.
 
