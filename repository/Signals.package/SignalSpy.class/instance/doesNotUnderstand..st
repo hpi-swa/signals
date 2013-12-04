@@ -6,4 +6,4 @@ doesNotUnderstand: aMessage
 	self verbose ifTrue: [
 		Transcript
 			cr;
-			show: {aMessage selector. aMessage arguments}].
+			show: self queue peek asString].

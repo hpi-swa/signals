@@ -11,6 +11,6 @@ test35SignalSpyVerboseMode
 	
 	self
 		assert: #appendEntry equals: stm lastUpdate;
-		assert: String cr, '#(#valueChanged: #(#DontSpyOnMe))' equals: stm lastEntry.
+		assert: '#(#valueChanged: #(#DontSpyOnMe))' equals: stm lastEntry withBlanksTrimmed.
 	
 	stm unregister.
