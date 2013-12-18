@@ -14,6 +14,7 @@ The signals mechanism was inspired by the signals/slots concept of the [Qt Frame
 1. [Awareness] (#awareness)
 1. [Advanced Usage] (#advanced-usage)
 
+
 ## Terms
 
 A *signal* is a method that can be called to trigger a callback. Then the signal will be emitted.
