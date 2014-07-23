@@ -1,0 +1,14 @@
+{
+	"category" : "Signals-Morphic-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ViTestMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
