@@ -8,6 +8,6 @@
 		"sgConnectSignal:to:selector:pattern:" : "mt 7/8/2013 14:05:46.389",
 		"sgConnectSignal:toSelector:" : "mt 6/19/2012 14:18:37.641",
 		"sgConnectSignal:toSelector:pattern:" : "mt 6/19/2012 14:19:06.658",
-		"sgDisconnectSignal:from:selector:" : "mt 6/19/2012 14:22:33.946",
+		"sgDisconnectSignal:from:selector:" : "mt 12/11/2014 10:18:07.073",
 		"sgDisconnectSignal:fromSelector:" : "mt 6/19/2012 14:22:50.959",
 		"signalConnectionsForOwnerChain" : "mt 6/28/2011 15:45:04.011" } }

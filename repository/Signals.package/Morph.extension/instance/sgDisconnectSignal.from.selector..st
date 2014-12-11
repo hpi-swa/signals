@@ -8,6 +8,6 @@ sgDisconnectSignal: aSignal from: aReceiver selector: aSelector
 		
 	connections removeAllSuchThat: [:c | c selector == aSelector].
 	
-	connections ifEmpty: [(self signalConnectionsForOwnerChain at: aSignal) removeKey: self].
+	connections ifEmpty: [(self signalConnectionsForOwnerChain at: aSignal) removeKey: aReceiver].
 	(self signalConnectionsForOwnerChain at: aSignal) ifEmpty: [
 		self signalConnectionsForOwnerChain removeKey: aSignal].
