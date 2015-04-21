@@ -21,7 +21,7 @@ emitSignal: signal arguments: args sender: aSender
 					
 					forceUiProcess ifTrue: [
 						blocking := false. "Never block here."
-						queue := Processor activeProcess == UIManager default uiProcess
+						queue := Processor activeProcess == Project current uiProcess
 							ifTrue: [nil] "synchron processing in UI process"
 							ifFalse: [WorldState deferredUIMessages]]. "asynchron processing in UI process"
 					

@@ -31,7 +31,7 @@ connectSignal: aSignal to: aReceiver selector: aSelector pattern: argPattern que
 			mapping: ((1 to: numArgsReceiver) collect: [:i | i])].
 
 	"Signals sent in a non-multiprogramming environment should be processed in the UI process no matter from which process they are emitted."
-	forceUiProcess := Processor activeProcess == UIManager default uiProcess and: [aSharedQueue isNil].
+	forceUiProcess := Processor activeProcess == Project current uiProcess and: [aSharedQueue isNil].
 	
 	"Add the connection."
 	self signalMutex critical: [
