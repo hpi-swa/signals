@@ -2,7 +2,7 @@ tests
 test14DefaultUIProcessing
 	"Check whether default connections out of the ui process will only be processed in the ui process."
 	
-	self assert: UIManager default uiProcess equals: Processor activeProcess.
+	self assert: Project current uiProcess equals: Processor activeProcess.
 	
 	consumer
 		connect: producer
