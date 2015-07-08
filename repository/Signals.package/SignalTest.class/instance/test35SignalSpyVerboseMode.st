@@ -13,8 +13,7 @@ test35SignalSpyVerboseMode
 	
 	producer value: #DontSpyOnMe.	
 	
-	self
-		assert: #appendEntry equals: stm lastUpdate;
-		assert: String cr, '#(#valueChanged: #(#DontSpyOnMe))' equals: stm lastEntry.
+	self assert: (stm lastUpdate beginsWith: #appendEntry).
+	self assert: String cr, '#(#valueChanged: #(#DontSpyOnMe))' equals: stm lastEntry.
 	
 	stm unregister.

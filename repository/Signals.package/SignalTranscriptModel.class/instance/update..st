@@ -3,5 +3,5 @@ update: aSymbol
 
 	lastUpdate := aSymbol.
 
-	aSymbol = #appendEntry
+	(aSymbol beginsWith: #appendEntry)
 		ifTrue: [lastEntry := Transcript contents].
