@@ -1,4 +1,4 @@
-# Signals [![Build Status](https://secure.travis-ci.org/marceltaeumel/signals.png?branch=master)](http://travis-ci.org/marceltaeumel/signals)
+# Signals [![Build Status](https://secure.travis-ci.org/hpi-swa/signals.png?branch=master)](http://travis-ci.org/hpi-swa/signals)
 
 A simple callback is a function call that is performed when another action took place. Normally, callback can be registered to an object and will be processed by that object whenever the time is right. There are several ways to implement such callbacks. Some are more general, others only apply to a subset of possible actions in the system. This *Signals* implementation tries to be usable in all cases but adds one or another constraint to keep code that uses signals readable.
 
