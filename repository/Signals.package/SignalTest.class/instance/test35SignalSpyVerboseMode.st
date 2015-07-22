@@ -2,8 +2,8 @@ tests
 test35SignalSpyVerboseMode
 
 	| spy stm |
-	"Workaround for builderCI script on TravisCI."
-	(Transcript isKindOf: FileStream)
+	"Workaround for filtreeCI script on TravisCI."
+	(Transcript isKindOf: TravisCITranscriptStream)
 		ifTrue: [^ self "Just pass."].
 	
 	spy := SignalSpy onSender: producer signal: #valueChanged:.
