@@ -5,8 +5,7 @@ baseline: spec
 	spec for: #common do: [
 		spec package: 'Signals'.
 		spec
-			group: 'default' with: #('Signals');
-			group: 'TravisCI' with: #('Signals')].
+			group: 'default' with: #('Signals')].
 		
 	spec for: #squeak do: [
 		spec project: 'OmniBrowser' with: [
