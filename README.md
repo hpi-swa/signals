@@ -4,15 +4,15 @@ A simple callback is a function call that is performed when another action took 
 
 The signals mechanism was inspired by the signals/slots concept of the [Qt Framework](http://qt-project.org/).
 
-1. [Terms] (#terms)
-1. [Implementing Signals] (#implementing-signals)
-1. [Basic Connectinos] (#basic-connections)
-1. [Basic Signal Processing] (#basic-signal-processing)
-1. [Arguments and Patterns] (#arguments-and-patterns)
-1. [Disconnection] (#disconnections)
-1. [Using Processes] (#using-processes)
-1. [Awareness] (#awareness)
-1. [Advanced Usage] (#advanced-usage)
+1. [Terms](#terms)
+1. [Implementing Signals](#implementing-signals)
+1. [Basic Connectinos](#basic-connections)
+1. [Basic Signal Processing](#basic-signal-processing)
+1. [Arguments and Patterns](#arguments-and-patterns)
+1. [Disconnection](#disconnection)
+1. [Using Processes](#using-processes)
+1. [Awareness](#awareness)
+1. [Advanced Usage](#advanced-usage)
 
 
 ## Terms
