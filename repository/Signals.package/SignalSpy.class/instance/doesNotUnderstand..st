@@ -1,9 +1,11 @@
 spying
 doesNotUnderstand: aMessage
 
-	self queue nextPut: {aMessage selector. aMessage arguments}.
+	| item |
+	item := {aMessage selector. aMessage arguments}.
+	self queue nextPut: item.
 
 	self verbose ifTrue: [
 		Transcript
 			cr;
-			show: self queue peek asString].
+			show: item asString].
