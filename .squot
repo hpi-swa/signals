@@ -1,0 +1,8 @@
+OrderedDictionary {
+	'repository\/BaselineOfSignals.package' : #SquotCypressCodeSerializer,
+	'repository\/SI-Benchmarks.package' : #SquotCypressCodeSerializer,
+	'repository\/SI-OB-Morphic.package' : #SquotCypressCodeSerializer,
+	'repository\/SI-Reflection.package' : #SquotCypressCodeSerializer,
+	'repository\/SI-Wrapper.package' : #SquotCypressCodeSerializer,
+	'repository\/Signals.package' : #SquotCypressCodeSerializer
+}
