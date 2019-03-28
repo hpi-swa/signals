@@ -1,0 +1,14 @@
+{
+	"category" : "SI-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "SignalBenchmarkAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "AXAnnouncement",
+	"type" : "normal" }
