@@ -1,8 +1,8 @@
 OrderedDictionary {
-	'repository\/BaselineOfSignals.package' : nil,
-	'repository\/SI-Benchmarks.package' : #SquotCypressCodeSerializer,
-	'repository\/SI-OB-Morphic.package' : nil,
-	'repository\/SI-Reflection.package' : nil,
-	'repository\/SI-Wrapper.package' : nil,
-	'repository\/Signals.package' : nil
+	'repository/BaselineOfSignals.package' : #SquotCypressCodeSerializer,
+	'repository/Signals.package' : #SquotCypressCodeSerializer,
+	'repository/SI-Benchmarks.package' : #SquotCypressCodeSerializer,
+	'repository/SI-OB-Morphic.package' : #SquotCypressCodeSerializer,
+	'repository/SI-Reflection.package' : #SquotCypressCodeSerializer,
+	'repository/SI-Wrapper.package' : #SquotCypressCodeSerializer
 }
