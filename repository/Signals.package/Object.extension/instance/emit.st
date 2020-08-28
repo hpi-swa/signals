@@ -7,7 +7,7 @@ emit
 	signal := signalCtx method.
 	
 	"Unwrap calls via debugger"
-	signalCtx isWrappedUntilErrorOrReturn ifTrue: [
+	(self isWrappedUntilErrorOrReturn: signalCtx) ifTrue: [
 		signalCtx := signalCtx sender sender.
 		signal := signalCtx method].
 	
@@ -17,7 +17,7 @@ emit
 		signal := signalCtx method].
 	
 	"Unwrap calls via debugger before method wrapper"
-	signalCtx isWrappedUntilErrorOrReturn ifTrue: [
+	(self isWrappedUntilErrorOrReturn: signalCtx) ifTrue: [
 		signalCtx := signalCtx sender sender.
 		signal := signalCtx method].
 	
@@ -28,7 +28,7 @@ emit
 		dodged := false.
 		
 		"Call via debugger"
-		(dodged not and: [signalCtx sender isWrappedUntilErrorOrReturn])
+		(dodged not and: [(self isWrappedUntilErrorOrReturn: signalCtx sender)])
 			ifTrue: [
 				dodged := true.
 				trap := signalCtx sender sender sender receiver ~~ signalCtx receiver].
