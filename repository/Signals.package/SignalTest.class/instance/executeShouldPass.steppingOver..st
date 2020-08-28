@@ -5,7 +5,7 @@ executeShouldPass: aBlock steppingOver: selector
 	| proc topContext sender |
 	proc := aBlock newProcess.
 	topContext := proc suspendedContext.
-	[proc runUntil: [:ctx | ctx willReallySend
+	[self run: proc until: [:ctx | ctx willReallySend
 		and: [ctx selectorToSendOrSelf = selector]].
 	proc isTerminated ifTrue: [self error: 'Simulation error'].
 	
