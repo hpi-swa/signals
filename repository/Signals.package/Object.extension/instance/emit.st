@@ -6,9 +6,19 @@ emit
 	signalCtx := thisContext sender.
 	signal := signalCtx method.
 	
-	"Wrapping this method... sigh..."
+	"Unwrap calls via debugger"
+	(self isWrappedUntilErrorOrReturn: signalCtx) ifTrue: [
+		signalCtx := signalCtx sender sender.
+		signal := signalCtx method].
+	
+	"Unwrap calls via method wrappers"
 	signal selector = #run:with:in: ifTrue: [
 		signalCtx := signalCtx sender.
+		signal := signalCtx method].
+	
+	"Unwrap calls via debugger before method wrapper"
+	(self isWrappedUntilErrorOrReturn: signalCtx) ifTrue: [
+		signalCtx := signalCtx sender sender.
 		signal := signalCtx method].
 	
 	"Do not allow external emitting of signals. Support for method wrappers."
@@ -17,18 +27,24 @@ emit
 		trap := true.
 		dodged := false.
 		
+		"Call via debugger"
+		(dodged not and: [(self isWrappedUntilErrorOrReturn: signalCtx sender)])
+			ifTrue: [
+				dodged := true.
+				trap := signalCtx sender sender sender receiver ~~ signalCtx receiver].
+		
 		"http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities"
 		(dodged not and: [signalCtx sender sender receiver isKindOf: (Smalltalk at: #MwMethodWrapper ifAbsent: [nil])])
 			ifTrue: [
 				dodged := true.
 				trap := signalCtx sender sender sender sender sender sender receiver ~~ signalCtx receiver].
-
+		
 		"Squeak SUnit"
 		(dodged not and: [signalCtx sender receiver class == (Smalltalk at: #TestCoverage ifAbsent: [nil])])
 			ifTrue: [
 				dodged := true.
 				trap := signalCtx sender sender receiver ~~ signalCtx receiver].
-
+		
 		"SmalltalkCI - https://github.com/hpi-swa/smalltalkCI"
 		(dodged not and: [signalCtx sender receiver class == (Smalltalk at: #SCICoverageWrapper ifAbsent: [nil])])
 			ifTrue: [dodged := true. trap := false "ignore"].

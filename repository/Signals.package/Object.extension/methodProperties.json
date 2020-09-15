@@ -20,10 +20,11 @@
 		"disconnectSignal:" : "mt 3/28/2011 10:26:41.824",
 		"disconnectSignal:from:" : "mt 3/28/2011 10:26:51.944",
 		"disconnectSignal:from:selector:" : "mt 3/28/2011 10:26:59.702",
-		"emit" : "mt 5/23/2018 15:39",
+		"emit" : "ct 8/28/2020 02:10",
 		"emitAlways" : "mt 6/14/2010 19:59:04.461",
 		"emitSignal:arguments:sender:" : "mt 4/21/2015 08:06",
 		"hasSignalConnections" : "mt 3/28/2011 10:10:37.999",
+		"isWrappedUntilErrorOrReturn:" : "ct 8/28/2020 02:09",
 		"signalConnections" : "mt 3/28/2011 10:10:10.872",
 		"signalConnectionsRepository" : "mt 3/28/2011 10:09:58.428",
 		"signalMutex" : "mt 3/28/2011 10:10:27.535" } }
